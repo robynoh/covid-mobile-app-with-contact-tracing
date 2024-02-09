@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".no_network">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/computer"
+
+            />
+
+        <TextView android:id="@+id/simpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO NETWORK"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:id="@+id/connection"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="RELOAD NEWS"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:background="#00CC33"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

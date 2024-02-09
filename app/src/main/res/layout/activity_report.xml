@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/infoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BAYELSA STATE COVID 19 REPORT"
+        android:padding="10dp"
+        android:textColor="#006600"
+        />
+    <TextView
+        android:id="@+id/info_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AS AT 25TH OF MAY 2020"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00CC33"
+        android:padding="10dp">
+
+
+
+        <TextView
+            android:id="@+id/info_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NO. OF CASES"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/cases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+       android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff0000"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/infob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO. OF ACTIVE CASES"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/active_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFCC33"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/infoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO. OF DISCHARGED CASES"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/discharged_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#6699FF"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/infod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO. OF DEATHS"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/death_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

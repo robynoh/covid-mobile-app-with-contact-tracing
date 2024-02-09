@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_marginTop="30dp">
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="350dp">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp">
+        <!-- Add Child Views Here -->
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What is COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+
+            android:text="Coronaviruses are zoonotic, meaning they are normally transmitted between animals and people. The coronavirus disease (COVID-19) is caused by a new strain of coronavirus (SARS-CoV-2) that has not been previously identified in humans. It was first reported to WHO on the 31st of December, 2019 in Wuhan, China."
+            android:textColor="#006600"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What is the source of COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+
+            android:text="Scientists and public health officials are working hard to identify the source of the SARS-CoV-2 which is the virus that causes COVID-19. The initial transmission appeared to be from an animal source, but there has been person-to-person transmission in countries."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Is COVID-19 airborne?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="When a person with coronavirus coughs or exhales, droplets land on objects and surfaces around the person. Other people then catch the virus by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch coronavirus if they breathe in these droplets. This is why it is important to stay at least 2 metres away from a person who is coughing or sneezing."
+            android:textColor="#006600"
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Are countries with hot weather immune to COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:text="From the evidence so far, the virus causing COVID-19 can be transmitted in ALL AREAS, including areas with hot and humid weather."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What are the symptoms of COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Cough, Fever, Breathing difficulties"
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Are there any cases in Nigeria?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:text="Yes. Nigeria has recorded confirmed cases of COVID-19. Most of the cases were imported from high risk countries with community transmission of COVID-19 while some are contacts of confirmed. Measures have been put in place to ensure all confirmed cases are isolated and receive treatment, while intense contact tracing is conducted."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Has anyone died from the disease in Nigeria?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Yes. There have been fatalities recorded in Nigeria"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What is Nigeria doing to control the spread of the disease in the country?"
+            android:textColor="#006600"
+            />
+
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="The Government of Nigeria has initiated a Presidential Task Force on COVID-19 to provide high-level strategic national response to the disease in Nigeria. The Federal Ministry of Health has activated an NCDC-led national COVID-19 Emergency Operations Centre (EOC) to coordinate response activities. At State-level, preparedness and response activities are being coordinated through Public Health EOCs in each State. The Federal Ministry of Health is working closely with states and the Presidential Task Force on COVID-19, to review response activities and to institute measures to protect the health of Nigerians. Recently, the Federal Government imposed a lockdown on the FCT, Lagos and Ogun States effective from the 30th of March for an initial period of time, to slow the spread of the disease in Nigeria. The NCDC has also launched a campaign themed #TakeResponsibility. This is a call to all Nigerians and residents in the country to join forces and to be proactive in taking greater individual and collective responsibility in preventing and controlling the spread of COVID-19 in Nigeria"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Is there a restriction of flights coming from affected countries?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text="Yes. The Federal Government of Nigeria has issued a ban on all international flights effective from the 23rd of March 2020 with the exception of emergency and essential flights for an initial period of time."
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text19"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Should I travel to another state where there is no case of COVID-19 to stay safe?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text20"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text="No. There is a higher risk of spreading COVID-19 through movement and inter-state travel. All persons are advised to stay at home and avoid all non-essential movement and travel."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What does self-isolation mean?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+
+            android:text="This means strictly staying at home or identified accommodation, away from situations where you mix with family members or the general public, for the period of 14 days. This means any situation where you may come in close contact with others (face to face contact closer than 2 metres i.e. 5 feet). The NCDC guidelines on this can be found HERE."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text23"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="What does social distancing mean?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:text="This is an effective strategy to reduce physical interaction between people towards reducing the widespread of COVID-19 in a community. The NCDC guidelines on this can be foundHERE This measure involves strict adherence to; · Non-contact greetings (avoiding shaking of hands and hugs) · Maintaining at least 2 metres (5 feet) physical distance between yourself and individuals · Closure of activities that will cause any form of gathering including schools, houses of worship, and social events"
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="How do I report a person who has refused to self-isolate?"
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text24"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text="This is an effective strategy to reduce physical interaction between people towards reducing the widespread of COVID-19 in a community. The NCDC guidelines on this can be foundHERE This measure involves strict adherence to; · Non-contact greetings (avoiding shaking of hands and hugs) · Maintaining at least 2 metres (5 feet) physical distance between yourself and individuals · Closure of activities that will cause any form of gathering including schools, houses of worship, and social events"
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text25"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="How do I get tested for COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text26"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:text="In line with the national case definition, the following people can be tested for COVID-19 in Nigeria; Anyone with travel history outside Nigeria, who presents with fever, cough or breathing difficulties within 14 days of arrival; OR Anyone who has symptoms and is a contact of a confirmed or probable case; OR Anyone with either cough, difficulty breathing or shortness of breath in an area of moderate or high COVID-19 prevalence with no other explanation for the symptoms For people in either of these categories, you must self-isolate and call your state hotline or the NCDC toll-free line immediately on 080097000010. The State Ministry of Health supported by NCDC will arrange for sample collection and transportation to the laboratory."
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text27"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Is there a cure for COVID-19?"
+            android:textColor="#006600"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text28"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text="There is no specific cure yet for COVID-19. However, many of the symptoms can be treated. Treatment is based on the patient’s clinical condition but supportive care for infected persons can be highly effective."
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text=""
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/text29"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="310dp"
+            android:layout_marginTop="18dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+
+
+            android:text=""
+            android:textColor="#006600"
+
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".diagnose_question"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:id="@+id/result_message"
+        >
+
+        <TextView
+            android:id="@+id/score_message"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text=""
+            android:textColor="#090"
+            />
+        <TextView
+            android:id="@+id/contact_message"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text=""
+            android:textColor="#090"
+
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/retake"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="RETAKE CHECK "
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+
+
+
+            android:background="#FFCC33" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:id="@+id/main_question"
+
+        >
+        <TextView
+            android:id="@+id/errormsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text=""
+            android:textColor="#ff0000"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="420dp"
+        android:id="@+id/cancel_check"
+        >
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="CANCEL CHECK "
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:padding="15dp"
+            android:textStyle="bold"
+
+
+
+            android:background="#FFCC33" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/one"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+            <TextView
+                android:id="@+id/text_slideshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                />
+
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="1 of 9"
+                android:textSize="20sp"
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/q1text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Have you traveled recently during the past 14 days?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+                />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:weightSum="1"
+                android:id="@+id/travel"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/qb1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/qb2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                >
+                <Button
+                    android:id="@+id/q1bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="one"
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/two"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="2 of 9"
+                android:textSize="14sp"
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/q2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Have you been in contact with somebody who is sick with the following symptom?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+               />
+
+            <TextView
+                android:id="@+id/t1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Sneezing"
+                android:textSize="14sp"
+
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/t1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Coughing"
+                android:textSize="14sp"
+
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Running a temprature"
+                android:textSize="14sp"
+
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Complainning of chest pain"
+                android:textSize="14sp"
+
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Sore Throat"
+                android:textSize="14sp"
+
+                android:textColor="#006600"
+                />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+
+                android:weightSum="1"
+                android:id="@+id/contact">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q2b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q2b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="-90dp"
+                >
+                <Button
+                    android:id="@+id/q2bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="two"
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/three"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="3 of 9"
+                android:textSize="14sp"
+                android:textColor="#006600"
+                 />
+
+            <TextView
+                android:id="@+id/q3text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Are you having any chest pain?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+               />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="30dp"
+                android:weightSum="1"
+                android:id="@+id/breathing">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q3b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q3b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/q3bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="three"
+
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/four"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="4 of 9"
+                android:textSize="14sp"
+                android:textColor="#006600"
+               />
+
+            <TextView
+                android:id="@+id/q4text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Are you running a temperature?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+                 />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="30dp"
+                android:weightSum="1"
+                android:id="@+id/hotness">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q4b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q4b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/q4bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="four"
+
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/five"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="5 of 9"
+                android:textSize="14sp"
+                android:textColor="#006600"
+                 />
+
+            <TextView
+                android:id="@+id/q5text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Do you have a new dry cough?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+                />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="30dp"
+                android:weightSum="1"
+                android:id="@+id/cough">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q5b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q5b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/q5bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="five"
+
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/six"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="6 of 9"
+                android:textSize="14sp"
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/q6text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Have you lost your sense of smell or taste?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006600"
+                />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="30dp"
+                android:weightSum="1"
+                android:id="@+id/taste">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q6b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q6b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/q6bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="six"
+
+                    android:background="#00CC33" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/seven"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="30dp">
+            <!-- Add Child Views Here -->
+
+
+
+
+
+            <TextView
+                android:id="@+id/q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="7 of 8"
+                android:textSize="14sp"
+                android:textColor="#006600"
+                />
+
+            <TextView
+                android:id="@+id/q7text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:text="Are you passing stool frequently?"
+                android:textSize="18sp"
+                android:textColor="#006600"
+                android:textStyle="bold"
+               />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="30dp"
+                android:weightSum="1"
+                android:id="@+id/stool">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="Yes"
+                    android:id="@+id/q7b1"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/q7b2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="25dp"
+                    android:layout_weight="0.13"
+                    android:textColor="#006600"/>
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/q7bnext"
+                    android:layout_width="300dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Next"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:onClick="seven"
+
+
+
+                    android:background="#00CC33" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/eight"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="8 of 8"
+            android:textSize="14sp"
+            android:textColor="#006600"
+            />
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="FILL IN YOUR INFORMATION"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+
+            android:textColor="#006600"
+
+            />
+
+        <TextView
+            android:id="@+id/namelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="14sp"
+            android:text="Name"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#006600"
+
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:id="@+id/phonelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="14sp"
+            android:text="Phone number"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#006600"
+
+            />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/addresslabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="14sp"
+            android:text="Address"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#006600"
+
+            />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            >
+            <Button
+                android:id="@+id/submittest"
+                android:layout_width="300dip"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="GET RESULT"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+
+
+                android:background="#00CC33" />
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8312503451868577/3385385780">
+            </com.google.android.gms.ads.AdView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+    <TextView
+        android:id="@+id/info_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayelsa State COVID-19 Report"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/info_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingLeft="14dp"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android_layout_margin="10dp"
+            card_view_cardCornerRadius="15dp"
+            card_view_cardElevation="5dp"
+            android_layout_height="350dp"
+
+
+            >
+
+    <LinearLayout
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+           >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="90dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#00CC33"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/info_textx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CASES"
+                android:textStyle="bold"
+                android:textColor="#fff"
+
+                />
+
+            <TextView
+                android:id="@+id/cases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#00CCCC"
+                    android:padding="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/sharerx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SHARE REPORT"
+                        android:textColor="#fff"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/sharer"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_share_black_24dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                card_view_cardCornerRadius="10dp"
+                card_view_cardElevation="10dp"
+                android:layout_marginRight="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#ff0000"
+                    android:padding="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ACTIVE"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/a_case"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                card_view_cardCornerRadius="10dp"
+                card_view_cardElevation="10dp"
+                android:layout_marginRight="10dp"
+
+
+                android:layout_marginTop="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#FFCC33"
+                    android:padding="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/info2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DISCHARGE"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/d_case"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#6699FF"
+                    android:padding="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/info3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" DEATHS"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/dt_case"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+
+                        />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView2"
+            android:layout_width="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8312503451868577/3385385780">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latest News"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="#006600"
+            android:textStyle="bold"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:id="@+id/Newslist" />
+        <TextView
+            android:id="@+id/more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" More News >>"
+            android:textSize="15sp"
+           android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/videoHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trending Videos"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="#006600"
+            android:textStyle="bold"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:id="@+id/Videolist" />
+
+        <TextView
+            android:id="@+id/moreVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View More Videos >>"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8312503451868577/3385385780">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

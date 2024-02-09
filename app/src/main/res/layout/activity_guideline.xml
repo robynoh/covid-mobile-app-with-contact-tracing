@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+           >
+
+
+        <TextView
+        android:id="@+id/no1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 "
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regular and thorough hand washing with soap and water; the use of alcohol based hand sanitizer is also recommended. "
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textColor="#006600"
+
+        />
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/one"
+        />
+    <TextView
+        android:id="@+id/no2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 "
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Social distancing is key. Maintain at least 2 meters (6 feet) distance between you and anyone. Avoid crowds and follow the stay-at-home advisory. "
+        android:textColor="#006600"
+        android:textSize="14sp"
+
+        />
+
+    <ImageView
+        android:id="@+id/newsImage2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/two"
+        />
+
+    <TextView
+        android:id="@+id/no3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 "
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endeavour to practice good respiratory hygiene: when sneezing or coughing, cover your mouth and nose with your sleeve at the flexed elbow or with a tissue. Then dispose-off the used tissue safely, immediately. "
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="#006600"
+
+        />
+
+    <ImageView
+        android:id="@+id/newsImage3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/flex_elbow"
+        />
+
+            <TextView
+                android:id="@+id/no4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 "
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="#006600"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/info_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exposed persons should stay home if you feel unwell with symptoms like fever, cough and difficulty in breathing and notify relevant authorities immediately "
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="#006600"
+
+                />
+
+            <ImageView
+                android:id="@+id/newsImage4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="5dp"
+                android:src="@drawable/stay_home"
+                />
+
+
+    <TextView
+        android:id="@+id/no5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 "
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DO NOT SPREAD FAKE NEWS. Citizens are advised not to abuse social media and indulge in spreading misinformation that can cause panic and lead to a stampede "
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="#006600"
+
+        />
+
+    <ImageView
+        android:id="@+id/newsImage5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/fake_news"
+        />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
